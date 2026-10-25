@@ -2,6 +2,7 @@
 
 ```sh
 brew tap luqueee/mole
+brew trust luqueee/mole           # Homebrew 7+ refuses to load third-party taps until you trust them
 
 brew install mole-tunnel          # the CLI (builds from the release tag; needs Go, which brew installs)
 brew install --cask mole-tunnel   # the desktop app (macOS)
