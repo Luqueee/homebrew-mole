@@ -1,6 +1,6 @@
 cask "mole-tunnel" do
-  version "0.6.0"
-  sha256 "9c1d5e4e571611c6c53828ea3747d51a2cf5c6a80bf742ce82d716e98fd2d30a"
+  version "0.7.0"
+  sha256 "2febb7112e7b659bd153855c70d080b340a4e64c9ad602f0f2025c2330a1993b"
 
   url "https://github.com/Luqueee/mole/releases/download/desktop-v#{version}/mole.dmg"
   name "mole"
