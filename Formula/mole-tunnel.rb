@@ -1,8 +1,11 @@
 class MoleTunnel < Formula
   desc "Hit localhost:3000 as if it were always running, even when the service lives on another machine"
   homepage "https://github.com/Luqueee/mole"
-  url "https://github.com/Luqueee/mole/archive/refs/tags/v0.7.0.tar.gz"
-  sha256 "45772819f4056031ab4860a4fdb70b1d8165a5fef675308123c106d856b15b27"
+  # A git checkout pinned by tag and commit, not a GitHub tarball: GitHub does
+  # not promise byte-identical archives, and a changed checksum breaks installs.
+  url "https://github.com/Luqueee/mole.git",
+      tag:      "v0.7.0",
+      revision: "70c55decfd0f3f08dcb6ce2a64240056f4cfb9dd"
   license "MIT"
   head "https://github.com/Luqueee/mole.git", branch: "main"
 
