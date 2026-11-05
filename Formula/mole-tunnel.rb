@@ -4,8 +4,8 @@ class MoleTunnel < Formula
   # A git checkout pinned by tag and commit, not a GitHub tarball: GitHub does
   # not promise byte-identical archives, and a changed checksum breaks installs.
   url "https://github.com/Luqueee/mole.git",
-      tag:      "v0.8.0",
-      revision: "0c8de49cc5336998f21d42a07fe68c68c10c7a01"
+      tag:      "v0.9.0",
+      revision: "33c0027bf7daa1fca695cb8bbe200e523bc06394"
   license "MIT"
   head "https://github.com/Luqueee/mole.git", branch: "main"
 
